@@ -1,0 +1,31 @@
+<!DOCtype html>
+<html>
+    <head>
+        <title>
+            Contact Us
+        </title>
+    </head>
+    <body>
+            <div><form action="ContactUsLab.html" method="POST">
+                First Name:<input type="text" name="firstName" /></div><br/>
+            <div><form action="ContactUsLab.html" method="POST">
+                Last Name:<input type="text" name="lastName" /></div><br/>
+            <div><form action="ContactUsLab.html" method="POST">
+                Email:<input type="text" name="Email" /></div><br/>
+                <div>Type of License:<br/>
+                <input type="radio" name="answer" value="Business"/>Business<br/>
+                <input type="radio" name="answer" value="Personal"/>Personal<br/></div>
+                <div><select name="Reason">
+                        <option value="Select a Reason">Select a Reason</option>
+                        <option value="Software Support">Software Support</option>
+                        <option value="Hardware Support">Hardware Support</option>
+                        <option value="Information Request">Information Request</option>
+                </select></div><br/>
+                <div>
+                        <label id="Message" for="Message">Additional Information:</label>
+                        <textarea id="Message" name="Message"></textarea>
+                </div><br/>
+                <div><input type="checkbox" name="checkbox"/> I understand the Terms and Conditions</div>
+                <input type="submit" value="Send Request"/>
+    </body>
+</html>

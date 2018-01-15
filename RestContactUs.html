@@ -1,0 +1,61 @@
+<!DOCtype html>
+<html>
+    <header>
+        <Title>
+            Mike's Diner
+        </Title>
+        <style type="text/css">
+            .container {
+                width: 200px;
+                clear: both;
+            }
+            .container input {
+                width: 100%;
+                clear: both;
+            }
+        
+            </style>
+    </header>
+    <body>
+            <center><h1>Mike's Diner</h1></center>
+            <hr/>
+            <a href="restaurant.html">Home</a>
+            <a href="RestMenu.html">Menu</a>
+            <a href="RestContactUs.html">Contact Us</a>
+            <hr/>
+        <center><div></div></center>
+    <center><div class="container"><form action="RestContactUs.html" method="POST">
+            First Name:<input type="text" name="firstName" /></div></center><br/>
+    <center><div class="container"><form action="RestContactUs.html" method="POST">
+            Email:<input type="text" name="Email" /></div></center><br/>
+    <center><div class="container"><form action="RestContactUs.html" method="POST">
+            Phone Number:<input type="text" name="phoneNumber" /></div></center><br/>
+    <center><div class="container">Reason for Inquiry: <select name="Reason">
+            <option value="Catering">Catering</option>
+            <option value="Private Party">Private Party</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+    </select></div></center><br/>
+    <center><div class="container">
+            <label id="Message" for="Message">Additional Information:</label>
+            <textarea id="Message" name="Message"></textarea>
+    </div></center><br/>
+    <center><div>Have you been to the restaurant?:
+        <input type="radio" name="answer" value="No"/>No
+        <input type="radio" name="answer" value="Yes"/>Yes</div></center>
+        <br/>
+    <center><div>M<input type="checkbox" name="checkbox"/>
+        T<input type="checkbox" name="checkbox"/>
+        W<input type="checkbox" name="checkbox"/>
+        Th<input type="checkbox" name="checkbox"/>
+        F<input type="checkbox" name="checkbox"/></div>
+        <br/>
+        <input type="submit" value="Send Request"/></center>
+    
+    </body>
+    <hr/>
+    <footer>
+        <center>321 Park Street, Saint Paul, MN, 55117</center>
+        <center>(651)108-6420</center>
+    </footer>
+</html>
